@@ -102,17 +102,6 @@ Wire Wire Line
 	3000 4100 3200 4100
 Wire Wire Line
 	3000 3900 3200 3900
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5DF90675
-P 3800 3200
-F 0 "SW?" H 3800 3485 50  0001 C CNN
-F 1 "Push Button" H 3800 3393 50  0000 C CNN
-F 2 "" H 3800 3400 50  0001 C CNN
-F 3 "" H 3800 3400 50  0001 C CNN
-	1    3800 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6700 3650 6700 3450
 Wire Wire Line
@@ -155,30 +144,8 @@ Wire Wire Line
 	7200 4650 5100 4650
 Wire Wire Line
 	5100 4650 5100 4150
-$Comp
-L Device:R R?
-U 1 1 5DF94C1B
-P 3800 3700
-F 0 "R?" H 3870 3746 50  0001 L CNN
-F 1 "R" H 3870 3655 50  0000 L CNN
-F 2 "" V 3730 3700 50  0001 C CNN
-F 3 "~" H 3800 3700 50  0001 C CNN
-	1    3800 3700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5300 1900 5300 2050
-Wire Wire Line
-	3800 3400 3800 3450
-Wire Wire Line
-	3800 3000 3800 2800
-Wire Wire Line
-	3800 2800 4450 2800
-Wire Wire Line
-	5300 1900 4450 1900
-Connection ~ 5300 1900
-Wire Wire Line
-	4450 1900 4450 2800
 Wire Wire Line
 	3500 3900 4300 3900
 Wire Wire Line
@@ -204,21 +171,5 @@ Wire Wire Line
 Wire Wire Line
 	2500 4600 5000 4600
 Wire Wire Line
-	5000 4150 5000 4450
-Wire Wire Line
-	3800 4450 5000 4450
-Wire Wire Line
-	3800 3850 3800 4450
-Connection ~ 5000 4450
-Wire Wire Line
-	5000 4450 5000 4600
-Wire Wire Line
-	3800 3450 4150 3450
-Wire Wire Line
-	4150 3450 4150 2950
-Wire Wire Line
-	4150 2950 4600 2950
-Connection ~ 3800 3450
-Wire Wire Line
-	3800 3450 3800 3550
+	5000 4150 5000 4600
 $EndSCHEMATC
